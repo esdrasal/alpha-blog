@@ -397,12 +397,12 @@ DEPENDENCIES
   importmap-rails
   jbuilder
   kamal
-  pg
+  pg (~> 1.1)
   propshaft
   puma (>= 5.0)
   rails (~> 8.0.1)
   rubocop-rails-omakase
-  sassc-rails
+  sassc-rails (>= 2.1.0)
   selenium-webdriver
   solid_cable
   solid_cache
