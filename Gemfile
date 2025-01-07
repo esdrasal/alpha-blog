@@ -59,6 +59,8 @@ end
 
 group :production do
     gem 'pg'
+    gem 'uglifier'
+    gem 'sassc-rails'
 end
 
 group :test do
