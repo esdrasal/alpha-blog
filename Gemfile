@@ -8,6 +8,7 @@ gem "turbo-rails"
 gem "stimulus-rails"
 gem "jbuilder"
 gem "bootsnap", require: false
+gem 'solid_queue'
 
 group :development, :test do
   gem 'sqlite3', '~> 2.1'
