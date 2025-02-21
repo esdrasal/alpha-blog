@@ -15,7 +15,7 @@ gem "solid_queue"
 gem "solid_cable"
 
 group :development, :test do
-  gem 'sqlite3', '~> 2.1'
+  gem 'sqlite3', '~> 2.6'
   gem "debug", platforms: %i[mri windows], require: "debug/prelude"
   gem "brakeman", require: false
   gem "rubocop-rails-omakase", require: false
